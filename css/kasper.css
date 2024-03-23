@@ -1,0 +1,54 @@
+/* Global roles */
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html { 
+    scroll-behavior: smooth; 
+}
+body { 
+    font-family: "Open Sans", sans-serif; 
+}
+
+ul { 
+    list-style: none;
+}
+
+/* Main Container */
+.container {     
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+
+/* Small Screens - Mobile */
+@media (min-width:768px) {
+    .container { 
+        width: 750px;
+    }    
+ 
+}
+
+
+/* Medium Screens */
+@media (min-width:992px) {    
+    .container { 
+        width: 970px;
+    }    
+    
+}
+
+
+/* Large Screens */
+@media (min-width:1200px) {
+    .container { 
+        width: 1170px;
+    }    
+}
+ 
+/* End Of Global roles */
